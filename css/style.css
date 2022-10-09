@@ -465,3 +465,38 @@ footer{
     #f8bf02
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+/* #########-------About section----------########### */
+.about{
+  padding:5rem ;
+
+  font-size: 4rem;
+  /* background:linear-gradient(rgb(0,0,0,0),rgb(0,0,0,0)),url('../img/bg3.jpg');
+  position:relative;
+  color: whitesmoke; */
+}
+
+.abt-heading{
+  border-bottom: whitesmoke 6px outset;
+}
+
+
+.a-box{
+  /* border:solid 4px red; */
+  margin:2rem;
+}
+
+.about{
+  box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.486);
+  color:white;
+}
+
+span{
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(253, 251, 246);
+}
+
+.content {
+  height: 500px;
+}
