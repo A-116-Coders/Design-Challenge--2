@@ -338,3 +338,95 @@ footer{
 .social-media-links i{
   margin:3rem;
 }
+
+/* ############------------CONTACT PAGE-------------############# */
+
+
+.contact{
+  /* border:2px red solid; */
+}
+
+
+
+.contact::after{
+  content:'';
+  display:block;
+  clear:both;
+}
+
+.form1{
+    
+  margin-top: 8rem;
+  display: inline-block;
+  width:49%;
+  float:right;
+  height:760px;
+  background:rgba(236, 232, 232, 0.842);
+
+
+}
+
+.form1 img{
+  max-width:90%;
+  min-height:40%;
+  object-fit: cover;
+  object-position: right;
+}
+
+/* #########-------Form Styling----------########### */
+
+.form1 h1{
+  font-size: 4rem;
+  margin:1rem;
+  color: rgba(0, 0, 0, 0.877);
+}
+
+.form1 p{
+  font-size: 2rem;
+  color:grey;
+}
+
+
+.form1 label{
+  display: block;
+  font-size: 2rem;
+  margin:1rem;
+  color: rgb(29, 26, 26);
+}
+
+.form1 h1::after{
+  content:'';
+  display:block;
+
+  border:rgb(238, 129, 5) 3px inset;
+
+}
+
+.form1 input{
+  width:96%;
+  margin:1rem;
+  margin-bottom: 1rem;
+  padding:1rem;
+}
+
+.form1 textarea{
+  margin:1rem;
+  width:96%;
+  height:200px;
+  padding:1rem;
+
+}
+
+.form-btn{
+  display:block;
+  margin:2rem auto;
+  padding: 0.5rem 3rem;
+  font-size:1.8rem;
+  text-transform: uppercase;
+  background: rgb(255, 81, 0);
+  /* border:8px solid rgb(26, 22, 22); */
+  border-radius: 80px;
+  outline:none;
+  border:none;
+  cursor:pointer;
+}
