@@ -467,6 +467,10 @@ footer{
 }
 
 /* #########-------About section----------########### */
+.body{
+  box-sizing: border-box;
+}
+
 .about{
   padding:5rem ;
 
@@ -500,3 +504,60 @@ span{
 .content {
   height: 500px;
 }
+
+.list2{
+  font-size: 15px;
+  color:white;
+  position:relative;
+  top:-250px;
+  float:right;
+  padding-right: 350px;
+}
+
+.list1{
+  font-size: 15px;
+  color:white;
+  position:relative;
+  top:-175px;
+  padding-left: 250px;
+}
+
+.type{
+  color:lightsalmon;
+}
+
+#A, 
+#B, 
+#C, 
+#D{
+  font-size: larger;
+}
+
+.footer{
+  background-color:rgba(142, 58, 221, 0.393);
+}
+
+#A{
+  position:relative;
+  left:-100px;
+  top:40px;
+}
+
+#B{
+  position:relative;
+  top:7px;
+  left:155px;
+}
+
+#C{
+  position:relative;
+  top:-23px;
+  left:100px;
+}
+
+#D{
+  position:relative;
+  top:-53px;
+  left:350px;
+}
+
