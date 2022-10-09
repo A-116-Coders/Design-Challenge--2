@@ -430,3 +430,38 @@ footer{
   border:none;
   cursor:pointer;
 }
+
+/* scroll bar */
+.scrollBar::-webkit-scrollbar {
+  width: 20px;
+}
+
+.scrollBar::-webkit-scrollbar-thumb {
+  background: #f8bf02; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #f8bf02,
+    #181696
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #f8bf02,
+    #2a188f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* border-radius: 10px; */
+}
+
+.scrollBar::-webkit-scrollbar-thumb:hover {
+  background: #f8bf02; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #1f2ac4,
+    #f8bf02
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #1a17be,
+    #f8bf02
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
